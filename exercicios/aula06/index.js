@@ -18,7 +18,7 @@ export function filtrarAprovados(alunos) {
 
 // Exercício 3 — extrairNomes
 export function extrairNomes(alunos) {
-  // escreva seu código aqui
+  return alunos.map(aluno => aluno.nome)
 }
 
 // Exercício 4 — buscarAluno
