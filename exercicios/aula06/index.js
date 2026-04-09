@@ -7,8 +7,9 @@
 
 // Exercício 1 — criarSaudacao
 export function criarSaudacao(nome) {
-  // escreva seu código aqui
+return `Olá, ${nome}!`;
 }
+
 
 // Exercício 2 — filtrarAprovados
 export function filtrarAprovados(alunos) {
