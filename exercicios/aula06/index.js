@@ -23,10 +23,12 @@ export function extrairNomes(alunos) {
 
 // Exercício 4 — buscarAluno
 export function buscarAluno(alunos, nome) {
-  // escreva seu código aqui
+  return alunos.find(aluno => aluno.nome === nome)
 }
 
 // Exercício 5 — calcularMedia
 export function calcularMedia(notas) {
-  // escreva seu código aqui
+  if (notas.length === 0) return 0
+  const soma = notas.reduce((calculator, nota) => calculator + nota, 0)
+   return soma/notas.length 
 }
